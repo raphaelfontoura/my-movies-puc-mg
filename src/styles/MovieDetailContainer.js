@@ -1,11 +1,21 @@
 import styled from "styled-components";
 
-export const MoviesContainer = styled.section`
+export const MovieDetailContainer = styled.section`
   margin: 0 20px;
   padding: 15px;
   background: #cecece;
   border: 1px solid black;
   border-radius: 10px;
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  article {
+    padding-top: 15px;
+  }
   
   ul {
     list-style: none;
